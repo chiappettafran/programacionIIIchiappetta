@@ -1,0 +1,192 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+.job-post .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+}
+
+.info {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.info .name {
+    font-weight: bold;
+    margin: 0;
+}
+
+.info .time {
+    font-size: 12px;
+    color: #888888;
+    margin: 0;
+}
+
+.heart {
+    font-size: 24px;
+    color: #888888;
+}
+
+.description {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.tags span {
+    background-color: #E0E0E0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #555555;
+}
+
+.pricing {
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rate {
+    font-size: 12px;
+    color: #888888;
+}
+
+.apply-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.stats {
+    background-color: #2B2B2B;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.earnings h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.earnings .change {
+    color: #00FF00;
+    font-size: 12px;
+}
+
+.projects p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.projects span {
+    color: #888888;
+    font-size: 12px;
+}
+
+.ranking {
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 20px;
+}
+
+.availability {
+    height: 10px;
+    background: linear-gradient(to right, #ff4b5c, #ffa036, #ffde7d, #a8e6cf, #00d1b2);
+    border-radius: 5px;
+}
+
+.clients p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.join-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.income {
+    text-align: left;
+}
+
+.income p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.income-month {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.income-bar {
+    background-color: #E0E0E0;
+    height: 8px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.bar {
+    height: 8px;
+    border-radius: 4px;
+}
